@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='eprofiler',
-    version='0.0.1',
+    version='0.0.2',
     description="a simple tool to monitor execution times of functions.",
     package_dir={'': 'src'},
     packages=find_packages(where='src'),

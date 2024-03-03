@@ -1,6 +1,6 @@
 [project]
 name = "eprofiler"
-version = "0.0.2"
+version = "0.0.3"
 description = "a simple tool to monitor execution times of functions."
 readme = "README.md"
 authors = [{name="emre", email=""}]
@@ -8,9 +8,16 @@ license = {file = "LICENSE"}
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Operating System :: OS Independent",
-    "License :: MIT License",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-keywords = ["profiling"]
+keywords = ["profiling", "Profilers"]
+
 dependencies = []
+
+[project.urls]
+homepage = 'https://github.com/eyukselen/eprofiler'
+documentation = 'https://github.com/eyukselen/eprofiler/wiki/Eprofiler'
+repository = 'https://github.com/pandas-dev/pandas'

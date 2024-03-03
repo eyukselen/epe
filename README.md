@@ -2,7 +2,12 @@
 
 Execution profiler
 
-a simple tool to monitor execution times of functions.
+a simple tool to monitor execution times of functions.  can be installed from pypi
+
+```pip install eprofiler```  
+
+https://pypi.org/project/eprofiler/  
+https://github.com/eyukselen/eprofiler  
 
 import `timeit` function and use as a decorator for the function you want to monitor
 if you pass an empty dict to it as below, you can get the results and use it in code.

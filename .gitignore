@@ -1,0 +1,7 @@
+*.pyc
+dist/
+build/
+MANIFEST
+.idea/
+.python-version
+epe.egg-info/

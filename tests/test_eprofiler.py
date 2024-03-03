@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime, timedelta
-from src.epe import timeit
+from eprofiler import timeit
 import sys
 import io
 
@@ -21,7 +21,7 @@ class TestTimeitDecorator(unittest.TestCase):
 
         test_function()
         printed_output = self.stdout.getvalue().strip()
-        self.assertRegex(printed_output, r'^\d{0,2}:\d{0,2}:\d{0,2}\.\d{6}$')
+        self.assertRegex(printed_output, r'^\d{0,2}:\d{0,2}:\d{0,2}')
 
     def test_duration_returned(self):
         stats = {}

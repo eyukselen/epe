@@ -1,6 +1,6 @@
-# epe
+# eprofiler
 
-Execution profiling engine or (Emre's profiling engine :D)
+Execution profiler
 
 a simple tool to monitor execution times of functions.
 
@@ -11,7 +11,7 @@ otherwise it will print duration.
 
 ## usage:
 ```
-from epe import timeit
+from eprofiler import timeit
 
 print("without stats dict provided")
 

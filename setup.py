@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='eprofiler',
-    version='0.0.4',
+    version='0.0.5',
     description="a simple tool to monitor execution times of functions.",
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
@@ -26,4 +26,9 @@ setup(
         "Programming Language :: Python :: 3",
         "Topic :: Software Development :: Libraries :: Python Modules"
     ],
+    project_urls={
+        'Homepage': 'https://github.com/eyukselen',
+        'Documentation': 'https://eprofiler.readthedocs.io/en/latest/index.html',
+        'Source': 'https://github.com/eyukselen/eprofiler',
+    }
 )

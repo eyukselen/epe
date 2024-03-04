@@ -1,6 +1,6 @@
 [project]
 name = "eprofiler"
-version = "0.0.4"
+version = "0.0.5"
 description = "a simple tool to monitor execution times of functions."
 readme = "README.md"
 authors = [{name="emre", email=""}]
@@ -18,6 +18,6 @@ keywords = ["profiling", "Profilers"]
 dependencies = []
 
 [project.urls]
-homepage = 'https://github.com/eyukselen/eprofiler'
-documentation = 'https://eprofiler.readthedocs.io/en/latest/'
-repository = 'https://github.com/eyukselen/eprofiler'
+Homepage = 'https://github.com/eyukselen/eprofiler'
+Documentation = 'https://eprofiler.readthedocs.io/en/latest/'
+"Source Code" = 'https://github.com/eyukselen/eprofiler'

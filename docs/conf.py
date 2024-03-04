@@ -8,10 +8,10 @@ sys.path.insert(0, os.path.abspath(".."))
 project = "eprofiler"
 copyright = "2024, emre"
 author = "emre"
-release = "0.0.4"
+release = "0.0.5"
 source_suffix = ".rst"
 master_doc = "index"
-version = "0.0.4"
+version = "0.0.5"
 
 extensions = [
     "sphinx.ext.autodoc",

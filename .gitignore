@@ -4,4 +4,4 @@ build/
 MANIFEST
 .idea/
 .python-version
-epe.egg-info/
+eprofiler.egg-info
